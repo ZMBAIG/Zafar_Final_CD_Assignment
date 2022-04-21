@@ -51,7 +51,7 @@ jobs:
       run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/Baig_Final_CD_Assignment/
       # Restart the application
     - name: Restart Application
-      run: ssh -t ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'systemctl restart Baig_Final_CD_Assignment'
+      run: ssh -t ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl restart Baig_Final_CD_Assignment'
     
     
         
