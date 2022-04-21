@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  background-color: rgb(191, 206, 222);
+}
+
+header {
+  background-color: slategray;
+  color: white;
+  padding: 10px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 10px;
+  font-family: cursive;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 35px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(1, 23, 23);
+  padding: 0.5em 0.5em 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(253, 253, 254);
+}
+
+main {
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
+  padding: 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: rgb(205, 199, 199);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Pacifico", cursive;
+  box-shadow: 20px 20px 10px rgb(50, 50, 50);
+  background-color: rgb(152, 171, 190);
+  padding: 80px;
+}
+span {
+  font-family: cursive;
+  font-size: 1em;
+  color: white;
+}
+.contact {
+  font-size: 1.5rem;
+  box-shadow: 20px 20px 10px rgb(50, 50, 50);
+  background-color: rgb(152, 171, 190);
+  padding: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+footer {
+  padding: 20px 0px;
+  color: white;
+  background-color: rgb(77, 88, 99);
+  display: flex;
+  justify-content: center;
+}

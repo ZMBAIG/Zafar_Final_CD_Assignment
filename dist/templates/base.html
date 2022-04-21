@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="title">
+        <h1>WINC FINAL CD ASSIGNMENT</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>{% block content %} {% endblock %}</main>
+    <footer>
+      <div>ZAFAR BAIG &copy; 2022</div>
+    </footer>
+  </body>
+</html>
