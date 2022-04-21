@@ -48,10 +48,10 @@ jobs:
       run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       # Copy dist folder with Rsync
     - name: Deploy with Rsync
-      run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/Baig_Final_CD_Assignment/
+      run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/Baig_Final_CD_Assignment-01/
       # Restart the application
     - name: Restart Application
-      run: ssh -t ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl restart Baig_Final_CD_Assignment'
+      run: ssh -t ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl restart Baig_Final_CD_Assignment-01'
     
     
         
