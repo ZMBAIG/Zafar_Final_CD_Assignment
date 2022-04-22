@@ -51,21 +51,15 @@ jobs:
 #       run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/Baig_Final_CD_Assignment-01/
 #     - name: Restart Application
 #       run: ssh -t ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'systemctl restart Baig_Final_CD_Assignment-01'
-name: Deploy
 
-on:
-    push:
-        tags:
-            - "*.*.*"
-jobs:
-    build:
+
         runs-on: ubuntu-latest
         timeout-minutes: 30
         steps:
             -   run: ls -la
             -   uses: actions/checkout@master
 
-            -   run: sudo apt-get install rsync
+            -   run: apt-get install rsync
            
             -   name: Deploy theme on server
                 id: deploy_theme
