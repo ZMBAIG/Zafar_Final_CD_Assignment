@@ -65,7 +65,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             echo 'Welcome to my server'
-            cd /home/cd
+            cd /home/Baig_Final_CD_Assignment-01/
             echo 'Now in home/cd'
             git pull
             systemctl restart cd_assignment
