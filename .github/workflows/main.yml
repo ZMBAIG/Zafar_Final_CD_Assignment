@@ -33,5 +33,5 @@ jobs:
       - name: Deploy with Rsync
         run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/winc-final-asignment/
       # Restart the application
-      - name: Restart Application
-        run: ssh -t ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} ' systemctl restart winc-final-asignment'
+#       - name: Restart Application
+#         run: ssh -t ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} ' systemctl restart winc-final-asignment'
