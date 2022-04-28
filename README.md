@@ -8,4 +8,4 @@ The main goal of this assignment is to create a simple flask python project, usi
 **PROBLEMS**:
 I confronted a lack of insufficient literature about deployment with Digital Ocean. I experienced with actions like “appleboy/ssh-action@v0.1.2 and shimataro/ssh-key-action@v2”.  Finally I succeeded to deploy with appleboy.<br>
 The connection with VPS with SSH key also made me annoy to generate and store private key. That makes error in regard with copy and paste mistakes.<br>
-I have attempted more than 50 commits in the project “Repository” to deploy my app to VPS. But every time I learned a new thing.
+I have attempted more than 50 commits changes in the project “Repository” to deploy my app to VPS. But every time I learned a new thing.
