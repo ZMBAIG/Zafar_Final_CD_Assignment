@@ -1,4 +1,4 @@
-#Final CD Assignment
+#Final CD Assignment#
 This is a CI/CD pipeline python project with the help of Github actions. These enable to create a custom workflows which can be used to automate software development cycle with wide range of tools and services, which are widely shared by Github community. 
 Building and testing a series of code requires a server. For this purpose I have a cloud server that is made to deploy a flask app to the Digital Ocean.
 The main goal of this assignment is to create a simple flask python project, using Github action, SSH and Digital Ocean server.
